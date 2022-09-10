@@ -4,7 +4,6 @@ import android.media.Image
 
 data class News(
     var logo : String,
-    var profile : String,
     var category : String,
     var base : String,
     var headline : String,
