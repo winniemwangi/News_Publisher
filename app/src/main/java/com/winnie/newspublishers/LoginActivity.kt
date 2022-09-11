@@ -21,7 +21,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
         castviews()
 
-        sharedPrefs = getSharedPreferences("WORKOUTLOG_PREFS", MODE_PRIVATE)
+        sharedPrefs = getSharedPreferences("NEWSPUBLISHER_PREFERENCE", MODE_PRIVATE)
 
     }
 
